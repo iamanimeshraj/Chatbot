@@ -1,0 +1,201 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for asking",
+            "Good to see you again",
+            "Hi there, how can I help?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses":[
+            "I am a college Enquiry bot, I'll help you to find top colleges"
+         ],
+         "context":[
+            ""
+         ]
+      },
+         {
+            "tag": "college_info",
+            "patterns": [
+               "Can you give me information about top 5 engineering colleges in Pune?", 
+            "What are the top engineering colleges in Pune?",
+             "Which are the best engineering colleges in Pune?"
+         ],
+            "responses": ["Sure, here are the top 5 engineering colleges in Pune:\n1. College of Engineering Pune (COEP)\n2. Maharashtra Institute of Technology (MIT)\n3. Symbiosis Institute of Technology (SIT)\n4. Vishwakarma Institute of Technology (VIT)\n5. Bharati Vidyapeeth Deemed University College of Engineering (BVUCOE)."],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "coep_info",
+            "patterns": ["Can you give me information about College of Engineering Pune (COEP)?", "Tell me about COEP"],
+            "responses": ["College of Engineering Pune (COEP) is a premier engineering college in Pune. It was established in 1854 and is one of the oldest engineering colleges in Asia. COEP offers undergraduate, postgraduate, and doctoral programs in various fields of engineering. The campus is spread over 36 acres and has state-of-the-art infrastructure. The fee structure varies for different courses and can be found on the official website."],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "mit_info",
+            "patterns": ["Can you give me information about Maharashtra Institute of Technology (MIT)?", "Tell me about MIT"],
+            "responses": ["Maharashtra Institute of Technology (MIT) is a private engineering college in Pune. It was established in 1983 and is affiliated to Savitribai Phule Pune University. MIT offers undergraduate, postgraduate, and doctoral programs in various fields of engineering. The campus is spread over 17 acres and has modern facilities such as a library, auditorium, and sports complex. The fee structure varies for different courses and can be found on the official website."],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "sit_info",
+            "patterns": ["Can you give me information about Symbiosis Institute of Technology (SIT)?", "Tell me about SIT"],
+            "responses": ["Symbiosis Institute of Technology (SIT) is a private engineering college in Pune. It was established in 2008 and is a constituent of Symbiosis International (Deemed University). SIT offers undergraduate and postgraduate programs in various fields of engineering. The campus is spread over 18 acres and has modern facilities such as a library, auditorium, and sports complex. The fee structure varies for different courses and can be found on the official website."],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "vit_info",
+            "patterns": ["Can you give me information about Vishwakarma Institute of Technology (VIT)?", "Tell me about VIT"],
+            "responses": ["Vishwakarma Institute of Technology (VIT) is a private engineering college in Pune. It was established in 1983 and is affiliated to Savitribai Phule Pune University. VIT offers undergraduate and postgraduate programs in various fields of engineering. The campus is spread over 17 acres and has modern facilities such as a library, auditorium, and sports complex. The fee structure varies for different courses and can be found on the official website."],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "bvcoe_info",
+            "patterns": ["Can you give me information about Bharati Vidyapeeth Deemed to be university?", "Tell me about bvcoe"],
+            "responses": ["Bharati Vidyapeeth Deemed University College of Engineering (BVUCOE) is a private engineering college in Pune, Maharashtra. It was established in 1983 and is affiliated to Bharati Vidyapeeth Deemed University. BVUCOE offers undergraduate and postgraduate programs in various fields of engineering, such as Civil Engineering, Mechanical Engineering, Computer Engineering, Information Technology, Electronics and Telecommunication Engineering, and Electrical Engineering.AThe campus is spread over 11 acres and has modern facilities such as a library, auditorium, and sports complex. The fee structure varies for different courses and can be found on the official website. BVUCOE has collaborations with international universities and offers various international programs such as student exchange programs and internships."],
+            "context":[
+               ""
+            ]
+      },
+      {
+         "tag":"python_is_best",
+         "patterns":[
+            "Which is the best programming language?",
+            "Can you tell me the best language ever?",
+            "What language can I start for programming",
+            "Is Python language an awesome language?",
+            "I am a beginner and I need to learn a new language"
+         ],
+         "responses":[
+            "Without a doubt, Python is the most BEAUTIFUL language ever! You can start learning it anytime",
+            "I am a fan of Python. It's my favorite ever. If you don't believe me, try it yourself"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"joke",
+         "patterns":[
+            "tell me a joke",
+            "can you tell me a joke",
+            "make some fun",
+            "make me laugh and do some funny joke",
+            "tell me a joke"
+         ],
+         "responses":[
+            "How do functions break up? \n They stop calling each other."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+            "tag": "coep_courses",
+            "patterns": ["What courses are available at College of Engineering Pune (COEP)?", "Tell me about the courses at COEP"],
+            "responses": ["College of Engineering Pune (COEP) offers various courses including:\n1. Bachelor of Engineering (B.E.) in Civil Engineering\n2. B.E. in Mechanical Engineering\n3. B.E. in Computer Engineering\n4. B.E. in Information Technology\n5. B.E. in Electronics and Telecommunication Engineering\n\nFor detailed fee structure, you can visit the official website of COEP."],
+            "context": [""]
+      },
+      {
+            "tag": "coep_fee_structure",
+            "patterns": ["What is the fee structure of College of Engineering Pune (COEP)?", "Tell me about the fee at COEP"],
+            "responses": ["The fee structure at College of Engineering Pune (COEP) varies depending on the course. For detailed fee information, you can visit the official website of COEP or contact the college administration."],
+            "context": [""]
+                  
+      },
+      {
+         "tag": "bvcoe_courses",
+         "patterns": ["What courses are available at Bharati Vidyapeeth College of Engineering Pune (BVCOE)?", "Tell me about the courses at BVCOE"],
+         "responses": ["Bharati Vidyapeeth College of Engineering Pune (BVCOEP) offers various courses including:\n1. Bachelor of Engineering (B.E.) in Civil Engineering\n2. B.E. in Mechanical Engineering\n3. B.E. in Computer Engineering\n4. B.E. in Information Technology\n5. B.E. in Electronics and Telecommunication Engineering\n\nFor detailed fee structure, you can visit the official website of BVCOEP (Https://www.bvuniversity.edu.in)."],
+         "context": [""]
+       },
+       {
+         "tag": "bvcoe_fee_structure",
+         "patterns": ["What is the fee structure of College of Engineering Pune (BVCOE)?", "Tell me about the fee at BVCOE"],
+         "responses": ["The fee structure at Bharati Vidyapeeth College of Engineering Pune (BVCOE) varies depending on the course. For detailed fee information, you can visit the official website of BVCOEP or contact the college administration."],
+         "context": [""]
+       }
+       
+   ]
+}
